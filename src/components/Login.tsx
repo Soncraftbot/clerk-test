@@ -20,7 +20,7 @@ export default function LoginPage() {
                 <div className="flex h-6 w-6 items-center justify-center rounded-md text-primary-foreground"></div>
                 Portal
               </div>
-              <SignIn withSignUp={true} />
+              <SignIn withSignUp={true} signUpUrl="" />
               {/* <SignInButton withSignUp={true} fallbackRedirectUrl={"/"}>
                 <Button variant={"outline"} className="w-full">
                   Sign in with Discord
